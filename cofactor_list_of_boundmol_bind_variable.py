@@ -14,9 +14,9 @@ logger.setLevel(logging.ERROR)
 
 from sqlalchemy import create_engine
 # Database connection details
-db_user = 'pdberead'
-db_pass = 'pdberead55'
-db_sid  = 'pdbe_live'
+db_user = '#######'
+db_pass = '########'
+db_sid  = '#########'
 
 engine = create_engine('oracle://'+db_user+':'+db_pass+'@'+db_sid)
 connection = engine.connect()
